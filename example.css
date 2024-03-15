@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    height: 100vh;
+    background-color:#ffffff;
+    display:flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    position:relative;
+
+    height: 400px;
+    width:300px;
+    box-sizing: border-box;
+    box-shadow: 14px 14px 15px rgb(226,225,456), -15px -20px 25px white ;
+    
+
+}
+.logo{
+    height: 100px;
+    width:95px;
+    background: aqua;
+    
+    margin:auto;
+    border-radius: 50%;
+
+}
+.title{
+    color:aqua;
+    background-color: black;
+    border-radius: 40%;
+}
+.inputs{
+    text-align: left;
+    margin-top: 30%;
+
+}
+label,input,button{
+    display:block;
+ 
+    width:50%;
+
+}
+label{
+    margin-top:10px;
+    color: aqua;
+
+}
+button{
+    border-radius: 45%;
+    
+    color: aqua;
+    background-color: black;
+    margin: auto;
+    
+}
+input{
+    margin-bottom: 10px;
+    
+    background-color: snow;
+    
+    
+}
